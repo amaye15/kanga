@@ -1,4 +1,4 @@
-# Kanga
+# Kangajo
 
 A library to start the kangaroo war to end them all data using Rust.
 
@@ -11,7 +11,7 @@ pip install kangajo
 ## Usage
 
 ```python
-import kanga
+import kangajo
 
 json_data = """
 {
