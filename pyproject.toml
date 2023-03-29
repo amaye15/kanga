@@ -1,0 +1,12 @@
+[build-system]
+requires = ["maturin"]
+build-backend = "maturin"
+
+[project]
+name = "kanga"
+version = "0.1.0"
+description = "A library to flatten JSON data using Rust."
+authors = ["Your Name Andrew Mayes"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/amaye15/kanga"
