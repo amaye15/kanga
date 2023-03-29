@@ -3,7 +3,7 @@ requires = ["maturin"]
 build-backend = "maturin"
 
 [project]
-name = "kanga"
+name = "kangajo"
 version = "0.1.0"
 description = "A library to flatten JSON data using Rust."
 authors = [{ name = "Andrew Mayes", email = "andrewmayes14@hotmail.com" }]

@@ -20,7 +20,7 @@ fn flatten_dict(json_string: String, sep: Option<String>) -> PyResult<String> {
 
 
 #[pymodule]
-fn kanga(_py: Python<'_>, m: &PyModule) -> PyResult<()> {
+fn kangajo(_py: Python<'_>, m: &PyModule) -> PyResult<()> {
     m.add_wrapped(wrap_pyfunction!(flatten_dict))?;
 
     Ok(())
